@@ -3,7 +3,7 @@ import './Calc.css';
 function Calc(){
     const[inputNumber,setinputNumber]=useState('');
     const [buttonDis,setbuttonDis]=useState({
-        button1:false,
+        button1:true,
     });
     const BtnPressed=(event)=> {
         setinputNumber(inputNumber+event.target.value);
@@ -39,7 +39,7 @@ function Calc(){
                 <button type="button" onClick={BtnPressed} className='box3' value="/" disabled={buttonDis.button1}>/</button>
                 <button type="button" onClick={BtnPressed} className='box3' value="*" disabled={buttonDis.button1}>*</button>
                 <button type="button" onClick={BtnPressed} className='box3' value="%" disabled={buttonDis.button1}>%</button>
-                <button type="button" onClick={EqOperator} className='box3'>=</button>
+                <button type="button" onClick={EqOperator} className='box3' disabled={buttonDis.button1}>=</button>
                 <button type="button" onClick={ClearOperator} className='box3'>Clear</button>
             </div>
         </div>
