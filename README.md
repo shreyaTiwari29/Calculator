@@ -1,3 +1,3 @@
+# This is my code for a basic calculator
 this is my first repository.
-#This is my code for a basic calculator
-#code is done with react.
+code is done with react.
