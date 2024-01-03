@@ -34,11 +34,11 @@ function Calc(){
                 <button type="button" onClick={BtnPressed} className='box3' value="8" >8</button>
                 <button type="button" onClick={BtnPressed} className='box3' value="9" >9</button>
                 <button type="button" onClick={BtnPressed} className='box3' value="0" >0</button>
-                <button type="button" onClick={BtnPressed} className='box3' value="+" disabled={buttonDis.button1} >+</button>
-                <button type="button" onClick={BtnPressed} className='box3' value="-" disabled={buttonDis.button1}>-</button>
-                <button type="button" onClick={BtnPressed} className='box3' value="/" disabled={buttonDis.button1}>/</button>
-                <button type="button" onClick={BtnPressed} className='box3' value="*" disabled={buttonDis.button1}>*</button>
-                <button type="button" onClick={BtnPressed} className='box3' value="%" disabled={buttonDis.button1}>%</button>
+                <button type="button" onClick={BtnPressed} className='box3' value="+" data-testid="button" disabled={buttonDis.button1} >+</button>
+                <button type="button" onClick={BtnPressed} className='box3' value="-" data-testid="button2" disabled={buttonDis.button1}>-</button>
+                <button type="button" onClick={BtnPressed} className='box3' value="/" data-testid="button3" disabled={buttonDis.button1}>/</button>
+                <button type="button" onClick={BtnPressed} className='box3' value="*" data-testid="button4" disabled={buttonDis.button1}>*</button>
+                <button type="button" onClick={BtnPressed} className='box3' value="%" data-testid="button5" disabled={buttonDis.button1}>%</button>
                 <button type="button" onClick={EqOperator} className='box3' disabled={buttonDis.button1}>=</button>
                 <button type="button" onClick={ClearOperator} className='box3'>Clear</button>
             </div>
