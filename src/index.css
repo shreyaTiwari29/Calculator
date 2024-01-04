@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen and(max-device-width:640px) and (orientation:portrait) {
+  body {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+  }
+}
