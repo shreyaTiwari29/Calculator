@@ -40,7 +40,7 @@ function Calc(){
                 <button type="button" onClick={BtnPressed} className='box3' value="*" data-testid="button4" disabled={buttonDis.button1}>*</button>
                 <button type="button" onClick={BtnPressed} className='box3' value="%" data-testid="button5" disabled={buttonDis.button1}>%</button>
                 <button type="button" onClick={EqOperator} className='box3' disabled={buttonDis.button1}>=</button>
-                <button type="button" onClick={ClearOperator} className='box3'>Clear</button>
+                <button type="button" onClick={ClearOperator} className='box3 cl'>Clear</button>
             </div>
         </div>
     );
