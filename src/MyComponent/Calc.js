@@ -22,7 +22,7 @@ function Calc(){
     }
     return (
         <div className='box1'>
-            <p className='dispNum'>{inputNumber}</p><br /><br />
+            <p className='dispNum'>{inputNumber}</p>
             <div className='box2'>
                 <button type="button" onClick={BtnPressed} className='box3' value="1" >1</button>
                 <button type="button" onClick={BtnPressed} className='box3' value="2" >2</button>
